@@ -11,7 +11,7 @@ function paintImage(imgNumber) {
   image.classList.add("backgroundImage"); // 2-4. 사진 크기 맞추기 위해서 image태그에 class추가
   body.appendChild(image); // 2-5. 배경사진 추가
 
-  if (window.innerWidth < "850") {
+  if (window.innerWidth < "1445") {
     // // 모바일용으로 맞춤.
     const image = new Image();
     image.src = `images/0_${imgNumber}.jpg`;
