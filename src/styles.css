@@ -29,7 +29,11 @@ body {
 #weather-div {
   position: absolute;
   top: 420px;
-  left: 100px;
+  left: 130px;
+  background-color: wheat;
+  border-radius: 20px;
+  opacity: 0.7;
+  padding: 15px 25px;
 }
 
 #weather-div > span {
@@ -40,17 +44,17 @@ body {
     "Lucida Sans", Arial, sans-serif;
   font-size: 40px;
   /* font-style: italic; */
-  color: wheat;
+  color: indigo;
+  opacity: 1;
   /* text-shadow: coral 0 1px; */
   /* text-shadow: 1px 1px 2px black; */
-  text-shadow: 1px 1px 20px indigo;
-  opacity: 0.8;
+  /* text-shadow: 0px 0px 4px indigo; */
 }
 
 #clock-h1 {
   position: absolute;
   top: 120px;
-  left: 100px;
+  left: 130px;
   color: wheat;
 
   text-shadow: coral 0 1px;
@@ -59,7 +63,7 @@ body {
 #clock-h2 {
   position: absolute;
   top: 180px;
-  left: 90px;
+  left: 120px;
   font-size: 60px;
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
