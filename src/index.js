@@ -14,7 +14,7 @@ function paintImage(imgNumber) {
   if (window.innerWidth < "500") {
     // // 모바일용으로 맞춤.
     const image = new Image();
-    image.src = `images/_${imgNumber}.jpg`;
+    image.src = `images/0_${imgNumber}.jpg`;
     image.classList.add("backgroundImage");
     // image.style.floodOpacity("0.3");
     body.appendChild(image);
