@@ -10,6 +10,12 @@ function paintImage(imgNumber) {
   image.src = `images/${imgNumber}.JPG`;
   image.classList.add("backgroundImage"); // 2-4. 사진 크기 맞추기 위해서 image태그에 class추가
   body.appendChild(image); // 2-5. 배경사진 추가
+
+  if (window.innerWidth < "500px") {
+    image.src = `images/_${imgNumber}.JPG`;
+    image.classList.add("backgroundImage"); // 2-4. 사진 크기 맞추기 위해서 image태그에 class추가
+    body.appendChild(image);
+  }
 }
 
 function genRandom() {
