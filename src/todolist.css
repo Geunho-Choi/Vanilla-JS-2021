@@ -50,6 +50,7 @@
 #todo-list li {
   display: flex;
   align-items: center;
+  font-size: 37px;
 }
 
 #todo-list li button:hover {
