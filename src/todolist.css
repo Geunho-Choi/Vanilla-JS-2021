@@ -18,7 +18,7 @@
 #todolist ul {
   font-size: 25px;
   font-family: cursive;
-  text-shadow: black 2px 0 30px;
+  /* text-shadow: black 2px 0 30px; */
   line-height: 2;
 }
 
@@ -50,9 +50,26 @@
 #todo-list li {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 37px;
+  background-color: rgb(243, 178, 167);
+  opacity: 0.7;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  line-height: 1.5;
+  color: black;
+  font-weight: 800;
+}
+
+#todo-list li span {
+  overflow: visible;
+  width: 250px;
+  height: auto;
+  word-break: break-all;
 }
 
 #todo-list li button:hover {
   cursor: pointer;
+  font-size: large;
 }
